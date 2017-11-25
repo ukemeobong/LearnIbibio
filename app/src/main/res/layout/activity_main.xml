@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.uetechnologies.ukemeobong.learnibibio.MainActivity">
+
+    <TextView
+        android:id="@+id/alphabets"
+        style="@style/CategoryStyle"
+        android:background="@color/category_alphabets"
+        android:text="@string/category_alphabets" />
+
+
+    <TextView
+        android:id="@+id/numbers"
+        style="@style/CategoryStyle"
+        android:background="@color/category_numbers"
+        android:text="@string/category_numbers"/>
+
+    <TextView
+        android:id="@+id/family_members"
+        style="@style/CategoryStyle"
+        android:background="@color/category_family_members"
+        android:text="@string/category_family_members"/>
+
+    <TextView
+        android:id="@+id/colors"
+        style="@style/CategoryStyle"
+        android:background="@color/category_colors"
+        android:text="@string/category_colors" />
+
+    <TextView
+        android:id="@+id/phrases"
+        style="@style/CategoryStyle"
+        android:background="@color/category_phrases"
+        android:text="@string/category_phrases" />
+
+    <TextView
+        android:id="@+id/dictionary"
+        style="@style/CategoryStyle"
+        android:background="@color/category_dictionary"
+        android:text="@string/category_dictionary" />
+
+</LinearLayout>
