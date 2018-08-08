@@ -12,11 +12,11 @@
     <string name="category_family_members">Family Members</string>
 
     <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
-    <string name="category_colors">Colors</string>
+    <string name="category_colours">Colours</string>
 
     <!-- Category name for the vocabulary words for family phrases [CHAR LIMIT=20] -->
     <string name="category_phrases">Phrases</string>
 
     <!-- Category name for the vocabulary words for family phrases [CHAR LIMIT=20] -->
-    <string name="category_dictionary">Dictionary</string>
+    <string name="category_proverbs">Proverbs</string>
 </resources>

@@ -11,37 +11,43 @@
         android:id="@+id/alphabets"
         style="@style/CategoryStyle"
         android:background="@color/category_alphabets"
-        android:text="@string/category_alphabets" />
+        android:text="@string/category_alphabets"
+        android:onClick="openAlphabetsList"/>
 
 
     <TextView
         android:id="@+id/numbers"
         style="@style/CategoryStyle"
         android:background="@color/category_numbers"
-        android:text="@string/category_numbers"/>
+        android:text="@string/category_numbers"
+        android:onClick="openNumbersList"/>
 
     <TextView
         android:id="@+id/family_members"
         style="@style/CategoryStyle"
         android:background="@color/category_family_members"
-        android:text="@string/category_family_members"/>
+        android:text="@string/category_family_members"
+        android:onClick="openFamilyMembersList"/>
 
     <TextView
-        android:id="@+id/colors"
+        android:id="@+id/colours"
         style="@style/CategoryStyle"
-        android:background="@color/category_colors"
-        android:text="@string/category_colors" />
+        android:background="@color/category_colours"
+        android:text="@string/category_colours"
+        android:onClick="openColoursList"/>
 
     <TextView
         android:id="@+id/phrases"
         style="@style/CategoryStyle"
         android:background="@color/category_phrases"
-        android:text="@string/category_phrases" />
+        android:text="@string/category_phrases"
+        android:onClick="openPhrasesList"/>
 
     <TextView
-        android:id="@+id/dictionary"
+        android:id="@+id/proverbs"
         style="@style/CategoryStyle"
-        android:background="@color/category_dictionary"
-        android:text="@string/category_dictionary" />
+        android:background="@color/category_proverbs"
+        android:text="@string/category_proverbs"
+        android:onClick="openProverbsList"/>
 
 </LinearLayout>

@@ -1,6 +1,7 @@
 package com.uetechnologies.ukemeobong.learnibibio;
 
 import android.content.Intent;
+import android.icu.text.NumberingSystem;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -14,21 +15,36 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    // Find the View that shows the numbers category
-    TextView numbers = (TextView) findViewById(R.id.numbers);
+    public void openAlphabetsList (View view){
+        Intent i = new Intent(this, AlphabetsActivity.class);
+        startActivity(i);
+    }
 
-    // Set a click listener on that View
-    numbers.setOnClickListener(new View.OnClickListener() {
-        // The code in this method will be executed when the numbers View is clicked on.
-        @Override
-        public void onClick(View view) {
-            Intent numbersIntent = new Intent(MainActivity.this, NumbersActivity.class);
-            startActivity(numbersIntent);
-        }
-    })
+    public void openNumbersList (View view){
+        Intent i = new Intent(this, NumbersActivity.class);
+        startActivity(i);
+    }
+
+    public void openFamilyMembersList (View view){
+        Intent i = new Intent(this, FamilyMembersActivity.class);
+        startActivity(i);
+    }
+
+    public void openColoursList (View view){
+        Intent i = new Intent(this, ColorsActivity.class);
+        startActivity(i);
+    }
+
+    public void openPhrasesList (View view){
+        Intent i = new Intent(this, PhrasesActivity.class);
+        startActivity(i);
+    }
+
+    public void openProverbsList (View view){
+        Intent i = new Intent(this, DictionaryActivity.class);
+        startActivity(i);
+    }
 
 
 }
-
-09022933028+
 

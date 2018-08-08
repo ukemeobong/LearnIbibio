@@ -19,11 +19,11 @@
     <color name="category_family_members">#4CAF50</color>
 
     <!-- Background color for the phrases category -->
-    <color name="category_colors">#880E4F</color>
+    <color name="category_colours">#880E4F</color>
 
     <!-- Background color for the phrases category -->
     <color name="category_phrases">#CDDC39</color>
 
     <!-- Background color for the phrases category -->
-    <color name="category_dictionary">#03A9F4</color>
+    <color name="category_proverbs">#03A9F4</color>
 </resources>
